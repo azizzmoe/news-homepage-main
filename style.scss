@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
 // Variables
 $Soft-orange: #e9ab53;
 $Soft-red: #f15e50;
@@ -6,3 +8,57 @@ $Grayish-blue: #c5c6ce;
 $Dark-grayish-blue: #5d5f79;
 $Very-dark-blue: #00001a;
 
+body {
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  color: $Off-white;
+}
+
+h2 {
+  color: $Very-dark-blue;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.bio {
+  color: $Dark-grayish-blue;
+}
+
+.readmore {
+  width: 40%;
+  padding: 0.5rem;
+  background-color: $Soft-red;
+  color: #fffdfa;
+  border-radius: 0;
+
+  &:hover {
+    background-color: $Very-dark-blue;
+    color: #fffdfa;
+  }
+}
+
+section {
+  background-color: $Very-dark-blue;
+  color: $Off-white;
+
+  h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: $Soft-orange;
+    padding: 1.5rem 0;
+  }
+
+  .item {
+    h4 {
+      font-weight: 600;
+      color: $Off-white;
+    }
+    p {
+      color: $Grayish-blue;
+    }
+  }
+}
+
+.nav-link:hover {
+  color: $Soft-red;
+}
