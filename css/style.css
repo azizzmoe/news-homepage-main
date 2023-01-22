@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+body {
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  color: #fffdfa;
+}
+
+h2 {
+  color: #00001a;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.bio {
+  color: #5d5f79;
+}
+
+.readmore {
+  width: 40%;
+  padding: 0.5rem;
+  background-color: #f15e50;
+  color: #fffdfa;
+  border-radius: 0;
+}
+.readmore:hover {
+  background-color: #00001a;
+  color: #fffdfa;
+}
+
+section {
+  background-color: #00001a;
+  color: #fffdfa;
+}
+section h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #e9ab53;
+  padding: 1.5rem 0;
+}
+section .item h4 {
+  font-weight: 600;
+  color: #fffdfa;
+}
+section .item p {
+  color: #c5c6ce;
+}
+
+.nav-link:hover {
+  color: #f15e50;
+}/*# sourceMappingURL=style.css.map */
