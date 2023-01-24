@@ -14,6 +14,11 @@ body {
   color: $Off-white;
 }
 
+ul {
+  font-weight: bold;
+  color: $Very-dark-blue;
+}
+
 h2 {
   color: $Very-dark-blue;
   font-size: 4rem;
@@ -25,8 +30,6 @@ h2 {
 }
 
 .readmore {
-  width: 40%;
-  padding: 0.5rem;
   background-color: $Soft-red;
   color: #fffdfa;
   border-radius: 0;
@@ -61,4 +64,22 @@ section {
 
 .nav-link:hover {
   color: $Soft-red;
+}
+
+.cards {
+  h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: $Grayish-blue;
+  }
+  strong {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: $Very-dark-blue;
+  }
+
+  p {
+    color: $Dark-grayish-blue;
+    font-size: 13px;
+  }
 }
