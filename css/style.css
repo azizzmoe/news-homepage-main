@@ -5,6 +5,11 @@ body {
   color: #fffdfa;
 }
 
+ul {
+  font-weight: bold;
+  color: #00001a;
+}
+
 h2 {
   color: #00001a;
   font-size: 4rem;
@@ -16,8 +21,6 @@ h2 {
 }
 
 .readmore {
-  width: 40%;
-  padding: 0.5rem;
   background-color: #f15e50;
   color: #fffdfa;
   border-radius: 0;
@@ -47,4 +50,19 @@ section .item p {
 
 .nav-link:hover {
   color: #f15e50;
+}
+
+.cards h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #c5c6ce;
+}
+.cards strong {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #00001a;
+}
+.cards p {
+  color: #5d5f79;
+  font-size: 13px;
 }/*# sourceMappingURL=style.css.map */
